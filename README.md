@@ -25,7 +25,14 @@ A RESTful API for managing student records, built with Go.
 ```bash
 git clone https://github.com/yourusername/students-api.git
 cd students-api
-go run ./cmd/students-api
+
+# Install dependencies
+go get -u github.com/ilyakaznacheev/cleanenv
+go get github.com/go-playground/validator/v10
+go get github.com/mattn/go-sqlite3
+
+# Run the server
+go run .\cmd\students-api\main.go -config config/local.yaml
 ```
 
 ## Configuration
