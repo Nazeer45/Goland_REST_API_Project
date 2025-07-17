@@ -1,6 +1,6 @@
 # Students API
 
-A RESTful API project for managing student records, built with Go and SQLite to simulate real-world backend systems used in microservices architectures, enabling consistent and secure data exchange for client-facing applications.
+A Representational State Transfer (RESTful) API project for managing student records, built with Go and SQLite to simulate real-world backend systems used in microservices architectures, enabling consistent and secure data exchange for client-facing applications.
 
 ## Features
 
